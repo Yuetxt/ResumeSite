@@ -4,6 +4,21 @@
  * Lora
 ================================================================================ */
 @font-face {
+    font-family: 'iosevka';
+    src: url('../fonts/iosevka-medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'heavy';
+    src: url('../fonts/heavy.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'light';
+    src: url('../fonts/iosevka-extendedextralight.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'lora-bold';
     src: url('../fonts/lora/lora-bold-webfont.eot');
     src: url('../fonts/lora/lora-bold-webfont.eot?#iefix') format('embedded-opentype'),

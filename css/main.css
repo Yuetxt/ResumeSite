@@ -156,7 +156,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #c0c0c0;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -945,7 +945,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .skill-bars li {
 	height: .6rem;
-	background: #a1a1a1;
+	background: #313131;
 	width: 100%;
 	margin-bottom: 6rem;
 	padding: 0;
@@ -956,14 +956,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	left: 0;
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #a1a1a1;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #313131;
+	background: #a1a1a1;
 	position: relative;
 	height: 100%;
 }
@@ -1326,7 +1326,7 @@ header .logo a {
 }
 .intro-content h1 {
 	color: #FFFFFF;
-	font-family: "poppins-medium", sans-serif;
+	font-family: "light";
 	font-size: 8.4rem;
 	line-height: 1.071;
 	max-width: 900px;
@@ -1347,7 +1347,7 @@ header .logo a {
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-	font-family: "lora-regular", serif;
+	font-family: "heavy";
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
@@ -1490,7 +1490,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background: #000000;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1516,12 +1516,14 @@ header .logo a {
 }
 
 .about-content {
+	color: #c0c0c0;
 	position: relative;
 	text-align: left;
 	max-width: 850px;
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
+	color:#FFFFFF;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.8rem;
 	text-transform: uppercase;
@@ -1532,12 +1534,13 @@ header .logo a {
 	margin-left: 0;
 }
 .about-content .info-list li {
+	color:#c0c0c0;
 	padding: 0 0 1.5rem 0;
 	margin-bottom: .6rem;
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
